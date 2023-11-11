@@ -56,7 +56,7 @@ export const Carousel = () => {
     if (httpError) {
         return (
             <div className="container m-5">
-                <p>{}</p>
+                <p>{httpError}</p>
             </div>
         )
     }
